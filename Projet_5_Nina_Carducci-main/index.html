@@ -23,32 +23,27 @@
 	<script src="./assets/scripts.js"></script>
 	<script type="application/ld+json">
 		{
-		  "@context": "https://schema.org",
-		  "@type": "Person",
-		  "name": "Nina Carducci",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"addressCountry": "FR"
-		  },
-		  "url": "www.ninacarducci.com",
-		  "telephone": "05 56 67 78 89",
-		  "openingHoursSpecification": [
-			{
-			  "@type": "OpeningHoursSpecification",
-			  "dayOfWeek": [
-				"Lundi",
-				"Mardi",
-				"Mercredi",
-				"Jeudi",
-				"Vendredi"
-			  ],
-			  "opens": "10:00",
-			  "closes": "19:00"
-			},
-		  ],
+			"@context": "https://schema.org",
+			"@type": "PhotographyStudio",
+			"name": "Studio Photo de Nina Carducci",
+			"additionalProperty": [{
+				"@type": "PropertyValue",
+				"name": "Photographe",
+				"value": "Nina Carducci"
+			}],
+			"telephone": "+33556677889",
+			"openingHoursSpecification": [{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			}]
 		}
 	</script>
 </head>
