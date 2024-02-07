@@ -277,6 +277,10 @@ input[type="submit"] {
 		flex: 2;
 	}
 
+	.picture.left img {
+		width: 100%;
+	}
+	
 	#about,
 	#contact .container {
 		align-items: center;
@@ -381,7 +385,7 @@ input[type="submit"] {
 		width: 100%;
 		height: 100%;
 	}
-	
+
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
