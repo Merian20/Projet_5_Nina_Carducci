@@ -377,6 +377,11 @@ input[type="submit"] {
 		text-align: center;
 	}
 
+	.picture.left img, .picture.right img {
+		width: 100%;
+		height: 100%;
+	}
+	
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
